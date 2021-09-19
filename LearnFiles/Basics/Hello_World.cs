@@ -18,9 +18,6 @@ namespace LearnCS
         {
             Console.Write("Hello World\n"); //Write "Hello World" to the console (\n represents new line)
             Console.ReadLine(); //Wait for a user input and then close console
-
         }
-
     }
-
 }
