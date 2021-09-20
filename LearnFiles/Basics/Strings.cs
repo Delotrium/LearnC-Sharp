@@ -22,6 +22,11 @@ namespace LearnCS
             char FirstLetter = phrase[0]; //First character in phrase
             char LastLetter = phrase[(phrase_length - 2)]; //Last character in phrase (-2 because of fullstop)
 
+            int index = phrase.IndexOf("jars"); //Gets the index of "jars", the position the first char is in
+            string substring = phrase.Substring(index); //Returns the rest of the phrase after the index
+            string second_word = phrase.Substring(6,7); //Returns substrings
+
+
             Console.WriteLine("The Phrase is: " + phrase);
             Console.WriteLine("The length of the phrase is " + phrase_length + " Characters long");
             Console.WriteLine("The phrase in uppercase is: " + UpperPhrase);
@@ -31,6 +36,9 @@ namespace LearnCS
             Console.WriteLine("Does the phrase contain \"brown\"? (Not Case Sensetive): " + Contains_Brown);
             Console.WriteLine("The first letter is: " + FirstLetter);
             Console.WriteLine("The last letter is: " + LastLetter);
+            Console.WriteLine("The index of \"jars\" is: " + index);
+            Console.WriteLine("The Substring of \"jars\" is: " + substring);
+            Console.WriteLine("The Substring of string 6-7 is: " + second_word);
 
          }
     }
