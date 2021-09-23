@@ -8,7 +8,6 @@ namespace LearnCS
         {
             Print("Hi"); //Using the "Print" method we made, with parameter  "Hi"
             Print((AddTwoNumbers(1,3).ToString())); //Print The result of "AddTwoNumbers", note ToString method converts int type to string type, using the methods we made
-            
         }
         /* Template of methods:
         static <return type> <Name>(<parameters>)
