@@ -9,11 +9,10 @@ namespace LearnCS
             //SecondClass.PrivateMethod();       -If were to uncomment this code and error would appear as the method is private and can only be called in the origin class
             //SecondClass.PrintPrivateMethod;    -This would also create an error even though PrintPrivateMethod() is public, the code itself is running private method(s) which cannot be accessed/called
         }
-
     }
+    
     class SecondClass //Second class
     {
-        
          public static void Print(string phrase) //Make a PUBLIC method that prints the parameters
         {
             Console.WriteLine(phrase);
