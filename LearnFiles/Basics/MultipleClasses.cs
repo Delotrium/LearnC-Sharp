@@ -1,7 +1,7 @@
 using System;
 namespace LearnCS
 {
-    class MainClass
+    public class MainClass //Create a public class, public classes can be accessed outside of the origin namespace
     {
         public static void main(string[] args)
         {
@@ -11,7 +11,7 @@ namespace LearnCS
         }
     }
     
-    class SecondClass //Second class
+    public class SecondClass //Second class
     {
          public static void Print(string phrase) //Make a PUBLIC method that prints the parameters
         {
