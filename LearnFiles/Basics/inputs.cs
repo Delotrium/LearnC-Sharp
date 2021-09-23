@@ -15,9 +15,8 @@ namespace LearnCS
             string name = Console.ReadLine(); //Take input into "name" variable
             Console.WriteLine("Oh, hello " + name + "! What is your age?"); //Ask second question
             string age = Console.ReadLine(); // Get input as age
-            Console.WriteLine("Good day " + name + "! You are " + age + " years old, and your computer name is " + HostName+".");//output final statement with all variables
+            Console.WriteLine("Good day " + name + "! You are " + age + " years old, and your computer name is " + HostName+"."); //output final statement with all variables
             Console.ReadLine();
         }
     }
-
 }
