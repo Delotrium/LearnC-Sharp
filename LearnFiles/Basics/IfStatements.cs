@@ -18,7 +18,6 @@ namespace LearnCS
             {
                 return false;
             }
-            
         }
         static void PrintResult()
         {
