@@ -28,7 +28,6 @@ namespace LearnCS
                 else if (i < 2)
                 {
                     Console.WriteLine("That is incorrect! You have " + (2 - i) + " turns left.");
-                   
                 }
                 else if (i==2)
                 {
@@ -38,8 +37,6 @@ namespace LearnCS
                 }
                 i++; //Increment i by one everytime it loops
             }
-            
         }
-
     }
 }
